@@ -1,6 +1,6 @@
 ---
-title: "Professor Whiskers"
-logo: catStat.png
+title: "Micah Villarreal"
+logo: IMG_1155.png
 description:
 ---
 
