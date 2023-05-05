@@ -1,1 +1,4 @@
-Hello, I'm Professor Whiskers, a feline statistician and associate professor of Statistics at Catnip College. My research interests include applications of statistical methods to cat behavior and health, development and implementation of Bayesian models for complex data, and the use of artificial neural networks and deep learning techniques for data analysis and prediction. I received my Ph.D. in Statistics from Cat State University and my B.A. in Mathematics from Meow-vard University. In my free time, I enjoy chasing laser pointers and taking long naps in sunny spots. I'm also an avid birdwatcher and have a keen interest in ornithology.
+I am a Ph.D. student in Economics at the University of California, Santa Barbara (UCSB) and a National Science Foundation Graduate Research Fellow. I conduct applied economic research related to labor, gender, race and inequality.
+
+Prior to joining UCSB, I was a programmer at Abt Associates, Inc. where I conducted research on labor and housing policy. I was also a research assistant for Esther Duflo at J-PAL, MIT. I earned a B.A. in International Relations & Economics from Wellesley College.
+
