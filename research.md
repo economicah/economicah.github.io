@@ -4,5 +4,5 @@
 
 **Pre-Doctoral Work**
 
-[My Google Scholar](https://scholar.google.com/citations?user=CfAcFbcAAAAJ&hl=en)
+[Google Scholar](https://scholar.google.com/citations?user=CfAcFbcAAAAJ&hl=en)
   
