@@ -1,10 +1,12 @@
-I am a Ph.D. candidate in Economics at the [University of California, Santa Barbara](https://econ.ucsb.edu/) (UCSB) and a [National Science Foundation Graduate Research Fellow](https://www.nsfgrfp.org/). I conduct applied microeconomic research on American economic history and intergenerational mobility.
+I am a Postdoctoral Scholar at the [Department of Economics at Northwestern University](https://economics.northwestern.edu/).
 
-Prior to starting at UCSB, I was a programmer at [Abt Associates, Inc.](https://www.abtassociates.com/) where I contributed to research on labor and housing policy. I was also an undergraduate research assistant at [J-PAL](https://www.povertyactionlab.org/). I hold a B.A. in International Relations & Economics from [Wellesley College](https://www.wellesley.edu/).
+I work on topics in labor and inequality using tools from applied microeconomics and economic history.
 
-Contact: micahvillarreal@ucsb.edu
+I was a [National Science Foundation Graduate Research Fellow](https://www.nsfgrfp.org/) and received my PhD from the [University of California, Santa Barbara](https://econ.ucsb.edu/) (UCSB) in 2025. I am also an alumna of [Wellesley College](https://www.wellesley.edu/).
 
-Office: North Hall, 3047
+I will be on the economics job market in Fall 2025.
+
+Contact: micah.villarreal@northwestern.edu
 
 Linkedin: https://www.linkedin.com/in/micahvillarreal
 
