@@ -1,6 +1,6 @@
 ---
 title: "Micah Villarreal"
-logo: Villarreal_Micah25_0010.jpg
+logo: Villarreal_Micah25_00102.png
 description:
 ---
 
