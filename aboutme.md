@@ -8,7 +8,7 @@ I will be on the economics job market in Fall 2025.
 
 Contact: micah.villarreal@northwestern.edu
 
-Bluesky: @economicah.bsky.social
+Bluesky: [@economicah.bsky.social](https://bsky.app/profile/economicah.bsky.social)
 
 Linkedin: https://www.linkedin.com/in/micahvillarreal
 
