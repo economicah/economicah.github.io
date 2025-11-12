@@ -4,7 +4,7 @@ I work on topics in labor and inequality using tools from applied microeconomics
 
 I received my PhD from the [University of California, Santa Barbara](https://econ.ucsb.edu/) (UCSB) in 2025. I am an alumna of [Wellesley College](https://www.wellesley.edu/).
 
-I will be on the economics job market in Fall 2025.
+I am on the 2025-2026 job market. 
 
 Contact: micah.villarreal@northwestern.edu
 
