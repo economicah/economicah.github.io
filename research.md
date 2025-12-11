@@ -10,6 +10,7 @@ _This paper examines how short-term wealth shocks affected the economic trajecto
 **Working Papers**
 
 "Last Place Aversion in the Jim Crow South." (draft available upon request)
+
 _I explore whether variation in the aggregate status of nonwhite Americans relative to white Americans in the Jim Crow South has a relationship with racist sentiments, as proxied by Ku Klux Klan (KKK) activity. I report some estimates of the relationship between three possible measures of relative status and KKK activity at a county level. I am agnostic to the reasons why county level, home ownership rate and income of white and nonwhite people vary between place and over time, instead taking them as given. I find that there is a strong and positive relationship between nonwhite income and KKK activity. I propose that such a relationship could be explained by “last-place aversion” on the part of poor white Southerners._
 
 **Works in Progress**
