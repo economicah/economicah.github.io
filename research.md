@@ -14,6 +14,7 @@ _I explore whether variation in the aggregate status of nonwhite Americans relat
 **Works in Progress**
 
 "Income, Wealth and the Socioeconomic Progress of Native Americans"
+
 "Wealth and Economic Development: The Case of Black Wall Street"
 
 **Pre-Doctoral Work**
