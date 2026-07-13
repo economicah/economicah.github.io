@@ -2,7 +2,7 @@
 
 [JOB MARKET PAPER]
 
-["Black Gold: The Effect of Wealth on Descendents of the Enslaved"](http://micahvillarreal.com/MV_jmp_2026_latest.pdf)
+["Black Gold: The Effect of Wealth on Descendents of the Enslaved"](http://micahvillarreal.com/MV_jmp_2025_latest.pdf)
 
 _This paper examines how positive wealth shocks affected the economic trajectories of descendants of the enslaved in the early twentieth-century United States. I exploit a natural experiment in which Creek Freedmen allottees—Black landholders in Oklahoma—received quasi-random windfalls when producing oil wells were drilled on their land allotments. By constructing and linking censuses and maps from the Bureau of Indian Affairs, oil drilling records, and U.S. censuses from 1910 to 1940, I show that oil discoveries were as-good-as-random with respect to core pre-windfall individual characteristics and pre-treatment outcomes. The wealth shocks had modest direct effects on asset accumulation, but large and persistent impacts on human capital. Treated youths were more likely to remain in school and ultimately attained higher levels of education; point estimates suggest they were also less likely to work in young adulthood. Over subsequent decades, they shifted toward white-collar occupations and urban residence, and maintained homeownership at rates comparable to their untreated peers despite moving to cities, where ownership was far less common. These findings provide the first causal evidence on the long-run effects of wealth shocks for descendants of the enslaved. They suggest that wealth enabled productive investments in education and mobility, generating lasting socioeconomic gains despite ongoing racial barriers._
 
