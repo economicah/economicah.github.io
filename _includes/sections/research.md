@@ -1,8 +1,6 @@
 ### Working Papers
 
 <article class="paper" markdown="1">
-<span class="paper-tag">Job Market Paper</span>
-
 #### Black Gold: The Effect of Wealth on Descendants of the Enslaved
 
 <p class="paper-links"><a class="btn" href="/MV_jmp_2025_latest.pdf" target="_blank" rel="noopener">PDF</a></p>
