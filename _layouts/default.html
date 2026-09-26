@@ -1,181 +1,89 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="{{ site.lang | default: "en" }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  {% seo %}
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ page.title | default: site.github.repository_name }}</a></h1>
+  <nav class="site-nav" aria-label="Sections">
+    <div class="nav-inner">
+      <a class="nav-name" href="#top">Micah Villarreal</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#talks">Talks</a></li>
+        <li><a href="#cv">CV</a></li>
+      </ul>
+    </div>
+  </nav>
 
-        {% if site.logo %}
-          <img src="{{page.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ page.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ page.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ page.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ page.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+  <main id="top">
+    <header class="hero">
+      <img class="headshot" src="{{ '/assets/img/headshot.jpg' | relative_url }}" alt="Portrait of Micah Villarreal" width="600" height="900">
+      <div class="hero-text">
+        <p class="eyebrow">Economist</p>
+        <h1>Micah Villarreal</h1>
+        <p class="role">Stone Postdoctoral Fellow in Income and Wealth Inequality</p>
+        <p class="affiliation"><a href="https://www.nber.org/">National Bureau of Economic Research</a></p>
+        <ul class="hero-links">
+          <li><a href="mailto:micahjvillarreal@gmail.com">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2.4V17h16V7.4l-8 5.3-8-5.3zM4.9 7l7.1 4.7L19.1 7H4.9z"/></svg>
+            Email</a></li>
+          <li><a href="https://bsky.app/profile/economicah.bsky.social" rel="me">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 10.8c-1.1-2.1-4-6.1-6.7-8C2.7.9 1.7 1.2 1.1 1.5.4 1.8 0 2.8 0 3.8s.6 8.3 1 9.5c1.2 4.2 5.7 5.6 9.8 5.2-6 .9-7.5 3.8-4.2 6.8 6.3 5.6 9-1.3 9.5-3 .5 1.7 3.2 8.6 9.5 3 3.3-3 1.8-5.9-4.2-6.8 4.1.4 8.6-1 9.8-5.2.4-1.2 1-8.5 1-9.5s-.4-2-1.1-2.3c-.6-.3-1.6-.6-4.2 1.3-2.7 1.9-5.6 5.9-6.7 8z"/></svg>
+            Bluesky</a></li>
+          <li><a href="https://scholar.google.com/citations?user=CfAcFbcAAAAJ&amp;hl=en">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.9V17h2V9L12 3zm-6 10.6V17c0 2.2 2.7 4 6 4s6-1.8 6-4v-3.4l-6 3.3-6-3.3z"/></svg>
+            Google Scholar</a></li>
+          <li><a href="{{ '/Villarreal, Micah.pdf' | relative_url }}" target="_blank" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 2h8l6 6v14H6V2zm7 1.5V9h5.5L13 3.5zM8 12h8v1.5H8V12zm0 3.5h8V17H8v-1.5zM8 19h5v1.5H8V19z"/></svg>
+            CV</a></li>
         </ul>
-        {% endif %}
-      </header>
-      
-  <section class="custom_section">
-    <!-- ------------------------------------------------------------------------ -->
-    <!--                           Formatting Tabs                                -->
-    <!-- ------------------------------------------------------------------------ -->
-     <div class="tabs">
-        <input type="radio" name="tabs" id="tab1" checked> 
-        <label for="tab1">About Me</label>
-        <div class="tabContent">
-          <zero-md id="rightAlign" src="aboutme.md"></zero-md>
-        </div>
-        <input type="radio" name="tabs" id="tab4"> 
-        <label for="tab4">Research</label>
-        <div class="tabContent">
-          <zero-md id="rightAlign" src="research.md"></zero-md>
-        </div>
-        <input type="radio" name="tabs" id="tab2"> 
-        <label for="tab2">Teaching</label>
-        <div class="tabContent">
-          <zero-md id="rightAlign" src="courses.md"></zero-md>
-        </div>
-        <!-- ------------- ADD RESUME HERE  ----------- --> 
-        <input type="radio" name="tabs" id="tab3"> 
-        <label for="tab3">CV</label>
-        <div class="tabContent">
-          <object data="Villarreal, Micah.pdf" 
-                  align="right"
-                  width="100%" 
-                  height="700"> 
-          </object>
-        </div>
-        <!-- <input type="radio" name="tabs" id="tab5"> 
-        <label for="tab5">Talks</label>
-        <div class="tabContent">
-          <zero-md id="rightAlign" src="talks.md"></zero-md>
-        </div>
-       -->
-        <!-- ------------------------------------------------------------------------ -->
-        <!-- if you want to add a tab(s) copy and paste below, and make the corresponding
-             .md file. make sure to change id if adding more than just one. -->
-        <!-- ------------------------------------------------------------------------ -->
-        <!--
-        <input type="radio" name="tabs" id="tab6"> 
-        <label for="tab6">Extra</label>
-        <div class="tabContent">
-          <zero-md src="extra.md"></zero-md>
-        </div>
-        -->
-        <!-- ------------------------------------------------------------------------ -->
-        <!-- ------------------------------------------------------------------------ -->
       </div>
-      <!-- ------------------------------------------------------------------------ -->
-      <!-- ------------------------------------------------------------------------ -->
-  </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-  </div>
-  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-      <!-- ------------------------------------------------------------------------ -->
-  <!--                    Using this to read in md files                        -->
-  <!-- ------------------------------------------------------------------------ -->
-  <script
-    type="module"
-    src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
-  ></script>
-  
-  <!-- ------------------------------------------------------------------------ -->
-  <!-- ------------------------------------------------------------------------ -->
-  </body>
+    </header>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      {% capture about %}{% include sections/about.md %}{% endcapture %}
+      {{ about | markdownify }}
+    </section>
+
+    <section id="research" class="section">
+      <h2>Research</h2>
+      {% capture research %}{% include sections/research.md %}{% endcapture %}
+      {{ research | markdownify }}
+    </section>
+
+    <section id="teaching" class="section">
+      <h2>Teaching</h2>
+      {% capture teaching %}{% include sections/teaching.md %}{% endcapture %}
+      {{ teaching | markdownify }}
+    </section>
+
+    <section id="talks" class="section">
+      <h2>Talks</h2>
+      {% capture talks %}{% include sections/talks.md %}{% endcapture %}
+      {{ talks | markdownify }}
+    </section>
+
+    <section id="cv" class="section">
+      <h2>Curriculum Vitae</h2>
+      <p><a class="btn btn-primary" href="{{ '/Villarreal, Micah.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ site.time | date: '%Y' }} Micah Villarreal &middot; Last updated {{ site.time | date: '%B %Y' }}</p>
+  </footer>
+</body>
 </html>
-  
-<!-- ------------------------------------------------------------------------ -->
-<!--                           Styling the tabs                               -->
-<!-- ------------------------------------------------------------------------ -->
-<style> 
-  @media only screen and (min-width: 720px) {
-      .custom_section {
-      width: 550px;
-    }
-  }
-  
-  .tabs {
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      padding: 5px;
-  }
-  .tabs input[type="radio"] {
-      display: none;
-  }
-  .tabs label {
-    display: inline-block;
-    margin: 0px; 
-    padding: 15px 25px;
-    font-weight: 600;
-    text-align: center;
-    color: #bbb;
-    border: 1px solid transparent;
-    border-radius: 15px;
-  }
-
-  .tabs label:before {
-    font-weight: normal;
-    margin-right: 10px;
-  }
-
-  .tabs label:hover {
-    color: #888;
-    cursor: pointer;
-  }
-
-  .tabs .tabContent {
-      width: 100%;
-      padding: 20px;
-      background: #fff;
-      order: 1;
-      display: none;
-  }
-  .tabs .tabContent h2 {
-      font-size: 3em;
-  }
-
-  .tabs input[type='radio']:checked + label + .tabContent {
-      display: block;
-  }
-
-  .tabs input[type="radio"]:checked + label {
-      color: #267CB9;
-      background: radial-gradient(ellipse, #eee 0, #f7f7f7, #fff 100%);    
-  }
-</style>
-<!-- ------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------ -->
-
-
-<!-- ------------------------------------------------------------------------ -->
-<!-- Everything with the comments styled like this was add by brodyee and zack t. -->
-<!-- ------------------------------------------------------------------------ -->
-
-

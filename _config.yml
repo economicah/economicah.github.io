@@ -1,5 +1,24 @@
-theme: jekyll-theme-minimal
+# Site settings. Content lives in _includes/sections/*.md; the page layout is _layouts/default.html.
 title: Micah Villarreal
-logo: Villarreal_Micah25_00102.png
-description: 
+description: Stone Postdoctoral Fellow in Income and Wealth Inequality at the National Bureau of Economic Research. Labor economics, economic history, and applied microeconomics.
+url: https://micahvillarreal.com
+tagline: Economist · Stone Postdoctoral Fellow, NBER
+lang: en
+author:
+  name: Micah Villarreal
+twitter:
+  card: summary
 
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
